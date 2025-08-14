@@ -1,0 +1,7 @@
+name: setup
+
+on:
+  workflow_dispatch:
+jobs:
+  setup-labels:
+    uses: HasutoSasaki/github-workflows/.github/workflows/setup-labels.yaml@main
